@@ -1,0 +1,20 @@
+Lab Exam 2018-12-07-A: Service Connector JSON
+-------------------------------------------------------------------------------
+
+Für das gegebene REST Service:
+
+http://localhost:8080/REST-EJB-UserService
+
+Implementieren Sie einen Service Connector auf der Client-Seite mit dem Namen
+"UserServiceConnectorJSON", der das Interface "UserServiceConnector" implementiert.
+
+Sie können die Klasse "UserServiceConnectorTest" verwenden um Ihre Implementierung
+zu testen.
+
+Tipp: Beginnen Sie mit einem Code Review der Klassen "JSONTest" und "UserServiceJSONTest".
+
+Tipp: Vergessen Sie nicht das REST Service (REST-EJB-UserService) zu starten.
+
+		
+
+

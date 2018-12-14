@@ -1,0 +1,73 @@
+Lab Exam 2018-12-07-B: Code Generator
+---------------------------------------------------------------------
+
+Sie haben einen Prototypen gegeben, der bereits in die drei Code-
+Bereiche Generic, Manual und Generated unterteilt wurde.
+
+Sie sollen einen Code-Generator implementieren, der das gegebene
+"UserService" Interface via Reflection API einliest, daraus das
+Model aufbaut und schließlich die Klasse "UserServiceDecorator"
+und "UserServiceLoggingDecorator" generiert.
+Beachten Sie, dass die Klassennamen sich vom Interface-Namen
+ableiten.
+
+a) Implementieren Sie ein Metamodel für die Modellierung von Java
+	Interfaces (Sie können auf das Projekt "Metamodel-Interface"  
+	zurück greifen). 
+	[2 Punkte]
+	
+	--> src/generic/java: org.se.lab.metamodel.*
+	
+b) Erzeugen Sie aus dem gegebenen Interface "UserService" ein Model.
+	Verwenden Sie dazu das Reflection-API und das Metamodel.
+	[2 Punkte]
+	
+	--> src/generic/java: org.se.lab.generator.ModelGenerator
+		& src/text/java: org.se.lab.generator.ModelGeneratorTest
+	
+c) Implementieren Sie einen Code-Generator mit Hilfe des Visitor
+	Patterns. Definieren Sie ein "InterfaceGenerator" Interface
+	und schreiben Sie zwei konkrete Visitor Klassen: 
+	"DecoratorGenerator" und "LoggingDecoratorGenerator".	
+	[1 + 2 + 2 Punkte]	
+	
+	--> src/generic/java: org.se.lab.generator.InterfaceGenerator
+		& src/generic/java: org.se.lab.generator.ClassGeneratorBase, .DecoratorGenerator, .LoggingDecoratorGenerator
+		
+d) Implementieren Sie einen Test, der Ihren Generator aufruft.
+	Sie können einfach die gegebenen Klassen im Verzeichnis 
+	"src/generated/java" überschreiben.		
+	[1 Punkt]
+	--> src/text/java: org.se.lab.generator.ClassGeneratorTest
+
+Tipp: Sie können die Punkte (a) bis (d) im gleichen Projekt 
+	implementieren.
+
+Tipp: Vergessen Sie nicht den MySQL Server zu starten:
+
+# systemctl start mariadb.service
+
+
+Allgemeines
+---------------------------------------------------------------------
+
+1. Project Name
+	Nennen Sie das Projekt (und das abgegebene ZIP File) so um, dass 
+	statt "MyName" ihr Name verwendet wird. Beachten Sie, dass Projekten 
+	die nicht der Namenskonvention entsprechen 50% der Punkte abgezogen
+	werden!
+
+2. Manuelles Review
+	Bei der Notenvergabe wird für jede Lösung ein manuelles Code-Review 
+	durchgeführt. Die automatischen Tests sollen den Lösungsweg aufzeigen
+	und in der Umsetzung Feedback geben. Funktionale Tests können aber nicht
+	sicherstellen, dass die Implementierungs- und Design-Strukturen eingehalten
+	wurden. Es ist daher auch möglich, trotz laufender Tests Punkteabzüge zu
+	bekommen. Die Punkteabzüge können in einer Einsichtnahme besprochen werden.
+	
+3. Compiler Errors
+	Implementierungen die nicht kompilieren, werden nicht gewertet. 
+	Ausgenommen sind Code-Teile die bereits im Projekt vorhanden sind 
+	(z.B.: Tests kompilieren nicht, weil die zu testenden Klassen nicht 
+	implementiert wurden). 		
+	 
