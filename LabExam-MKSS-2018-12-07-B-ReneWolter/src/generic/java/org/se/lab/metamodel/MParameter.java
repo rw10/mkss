@@ -10,4 +10,5 @@ public class MParameter
 	{
 		super(name,type);
 	}
+
 }

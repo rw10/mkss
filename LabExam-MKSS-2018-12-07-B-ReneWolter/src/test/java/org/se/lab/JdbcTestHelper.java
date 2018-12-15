@@ -28,7 +28,7 @@ class JdbcTestHelper
     
     public JdbcTestHelper()
     {
-    	this("jdbc.properties");
+    	this("src/test/resources/jdbc.properties");
     }
     
     public JdbcTestHelper(String propertyFileName) 

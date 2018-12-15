@@ -27,4 +27,17 @@ public class MPackage
 	{
 		this.interfaces = interfaces;
 	}
+
+    /*
+     * Reference: ---[*]-> MImport
+     */
+    List<MImport> imports = new ArrayList<>();
+    public List<MImport> getImports()
+    {
+        return imports;
+    }
+    public void setImports(List<MImport> imports)
+    {
+        this.imports = imports;
+    }
 }

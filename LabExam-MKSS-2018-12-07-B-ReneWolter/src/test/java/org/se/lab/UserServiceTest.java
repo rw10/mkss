@@ -56,4 +56,42 @@ public class UserServiceTest
 				"]";
 		Assert.assertEquals(EXPECTED, users.toString());
     }
+
+
+	@Test
+	public void testRemove()
+	{
+		service.removeUser("2");
+
+		List<User> users = service.findAllUsers();
+
+		Assert.assertEquals(2, users.size());
+
+		final String EXPECTED = "[" +
+				"1,Homer,Simpson,homer,b8020e8e15c5362a7ac49800e3e86e99, " +
+				//"2,Bart,Simpson,bart,b8020e8e15c5362a7ac49800e3e86e99, " +
+				"3,Lisa,Simpson,lisa,b8020e8e15c5362a7ac49800e3e86e99" +
+				"]";
+		Assert.assertEquals(EXPECTED, users.toString());
+	}
+
+	@Test
+	public void testAdd()
+	{
+		List<User> users = service.findAllUsers();
+		Assert.assertEquals(3, users.size());
+
+		service.addUser("Marge", "Simpson", "marge", "*********");
+
+		users = service.findAllUsers();
+		Assert.assertEquals(4, users.size());
+
+		final String EXPECTED = "[" +
+				"1,Homer,Simpson,homer,b8020e8e15c5362a7ac49800e3e86e99, " +
+				"2,Bart,Simpson,bart,b8020e8e15c5362a7ac49800e3e86e99, " +
+				"3,Lisa,Simpson,lisa,b8020e8e15c5362a7ac49800e3e86e99, " +
+				"4,Marge,Simpson,marge,b8020e8e15c5362a7ac49800e3e86e99" +
+				"]";
+		Assert.assertEquals(EXPECTED, users.toString());
+	}
 }

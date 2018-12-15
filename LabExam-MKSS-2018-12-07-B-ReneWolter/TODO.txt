@@ -23,7 +23,7 @@ b) Erzeugen Sie aus dem gegebenen Interface "UserService" ein Model.
 	[2 Punkte]
 	
 	--> src/generic/java: org.se.lab.generator.ModelGenerator
-		& src/text/java: org.se.lab.generator.ModelGeneratorTest
+		& src/test/java: org.se.lab.generator.ModelGeneratorTest
 	
 c) Implementieren Sie einen Code-Generator mit Hilfe des Visitor
 	Patterns. Definieren Sie ein "InterfaceGenerator" Interface
@@ -38,7 +38,7 @@ d) Implementieren Sie einen Test, der Ihren Generator aufruft.
 	Sie können einfach die gegebenen Klassen im Verzeichnis 
 	"src/generated/java" überschreiben.		
 	[1 Punkt]
-	--> src/text/java: org.se.lab.generator.ClassGeneratorTest
+	--> src/test/java: org.se.lab.generator.ClassGeneratorTest
 
 Tipp: Sie können die Punkte (a) bis (d) im gleichen Projekt 
 	implementieren.

@@ -14,21 +14,6 @@ public class MInterface
 		super(name);
 	}
 	
-	
-	/*
-	 * Property: pub:boolean
-	 */
-	private boolean pub;
-	public boolean isPublic()
-	{
-		return pub;
-	}
-	public void setPublic(boolean pub)
-	{
-		this.pub = pub;
-	}
-	
-	
 	/*
 	 * Reference: ---[*]-> MOperation
 	 */

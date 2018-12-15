@@ -24,5 +24,5 @@ public abstract class MTypedElement
 	public void setType(MType type)
 	{
 		this.type = type;
-	}	
+	}
 }

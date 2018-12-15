@@ -1,6 +1,10 @@
-// Generated Class
+// Generated class
 
 package org.se.lab.business;
+
+import org.se.lab.data.User;
+
+import java.util.List;
 
 public abstract class UserServiceDecorator
 	implements UserService
@@ -8,42 +12,30 @@ public abstract class UserServiceDecorator
 	/*
 	 * Reference: service:UserService
 	 */
-	protected UserService service;
+	private UserService service;
 
-	/*
-	 * Constructor: UserServiceDecorator
-	 */
 	public UserServiceDecorator(UserService service)
 	{
 		if(service == null)
 			throw new IllegalArgumentException("UserService is null!");
 		this.service = service;
 	}
-
-
-	/*
-	 * Operation: addUser
-	 */
+	
 	@Override
-	public void addUser(final String firstName, final String lastName, final String username, final String password)
+	public void addUser(String firstName, String lastName, String username,
+			String password)
 	{
 		service.addUser(firstName, lastName, username, password);
 	}
 
-	/*
-	 * Operation: removeUser
-	 */
 	@Override
-	public void removeUser(final String idString)
+	public void removeUser(String idString)
 	{
 		service.removeUser(idString);
 	}
 
-	/*
-	 * Operation: findAllUsers
-	 */
 	@Override
-	public java.util.List<org.se.lab.data.User> findAllUsers()
+	public List<User> findAllUsers()
 	{
 		return service.findAllUsers();
 	}
