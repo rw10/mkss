@@ -13,12 +13,13 @@ public class ModelGeneratorTest {
 
 
     @Test
-    public void testGenerate()
+    public void testGenerateModel()
     {
         ModelGenerator generator = new ModelGenerator();
         MPackage mPackage = generator.createModel(UserService.class);
 
-        // reflection can't get generic data types as simple name (java.util.List<org.se.lab.data.User>)
+        // reflection can't get generic data types as simple name
+        // ->   "java.util.List<org.se.lab.data.User>" instead of "List<User>"
         // reflection can't read the imports in a file
 
         // package check
@@ -63,5 +64,7 @@ public class ModelGeneratorTest {
         Assert.assertEquals("idString", parameter.getName());
 
         Assert.assertEquals(0, mOpFindAll.getParameters().size());
+
+        System.out.println(mPackage);
     }
 }

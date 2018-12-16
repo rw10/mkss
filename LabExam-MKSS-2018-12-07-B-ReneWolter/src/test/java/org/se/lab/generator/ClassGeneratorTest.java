@@ -23,6 +23,7 @@ public class ClassGeneratorTest {
 
         System.out.print(sourcecode);
 
+        // read backup of original file
         String originalFile = "src/generated/java/org/se/lab/business/UserServiceDecorator.backup";
         String content = "";
         try {
@@ -49,6 +50,7 @@ public class ClassGeneratorTest {
 
         System.out.print(sourcecode);
 
+        // read backup of original file
         String originalFile = "src/generated/java/org/se/lab/business/UserServiceLoggingDecorator.backup";
         String content = "";
         try {

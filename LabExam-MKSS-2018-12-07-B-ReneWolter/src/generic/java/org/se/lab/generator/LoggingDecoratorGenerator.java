@@ -8,7 +8,7 @@ public class LoggingDecoratorGenerator extends ClassGeneratorBase {
 
     @Override
     public void visit(MPackage mPackage) {
-        // add a package to import
+        // add log4j package to import
         List<MImport> imports = mPackage.getImports();
         imports.add(new MImport("org.apache.log4j.Logger"));
         super.visit(mPackage);

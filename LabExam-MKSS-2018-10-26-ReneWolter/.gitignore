@@ -1,0 +1,5 @@
+/target/
+/jdbc.properties
+/.settings/
+/.classpath
+/.project

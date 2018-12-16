@@ -58,6 +58,10 @@ public class UserServiceTest
     }
 
 
+    /*
+     * own tests
+     */
+
 	@Test
 	public void testRemove()
 	{

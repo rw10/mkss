@@ -35,6 +35,7 @@ public class UserServiceConnectorTest
 	public void testInsert()
 	{
 		// test case updated!!!
+		System.out.println("starting testInsert()");
 		int countBeforeInsert = service.findAll().size();
 
 	    User user = new User(0, "maggie", "AZ2wv9X4WVHLRuRFLpZChYwAQVU=");
@@ -49,33 +50,40 @@ public class UserServiceConnectorTest
 		Assert.assertNotNull(foundUser);
 		Assert.assertEquals("maggie", foundUser.getUsername());
 		Assert.assertEquals("AZ2wv9X4WVHLRuRFLpZChYwAQVU=", foundUser.getPassword());
+		System.out.println("testInsert() successful");
 	}
 
 	@Test
 	public void testUpdate() throws IOException, JAXBException
 	{
 		// test case updated!!!
+		System.out.println("starting testUpdate()");
+
+		User foundUser = service.findById(1);
+		Assert.assertNotNull(foundUser);
+		Assert.assertNotEquals("newHomer", foundUser.getUsername());
+		Assert.assertNotEquals("newPassword", foundUser.getPassword());
 
 		// homer gets a new name and a new password
 	    User user = new User(1, "newHomer", "newPassword");
 	    service.update(user);
 
-		User foundUser = service.findById(1);
+		foundUser = service.findById(1);
 		Assert.assertNotNull(foundUser);
 		Assert.assertEquals("newHomer", foundUser.getUsername());
 		Assert.assertEquals("newPassword", foundUser.getPassword());
+		System.out.println("testUpdate() successful");
 	}
 
-	@Test	//(expected=UnsupportedOperationException.class)
+	@Test
 	public void testDelete()
 	{
 		// test case updated!!!
-
+		System.out.println("starting testDelete()");
 		Assert.assertNotNull(service.findById(2));
-
 		service.delete(2);
-
 		Assert.assertNull(service.findById(2));
+		System.out.println("testDelete() successful");
 	}
 	
 	
