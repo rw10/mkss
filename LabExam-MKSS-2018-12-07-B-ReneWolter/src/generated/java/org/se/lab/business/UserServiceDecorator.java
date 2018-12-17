@@ -8,7 +8,7 @@ public abstract class UserServiceDecorator
 	/*
 	 * Reference: service:UserService
 	 */
-	protected UserService service;
+	private UserService service;
 
 	/*
 	 * Constructor: UserServiceDecorator

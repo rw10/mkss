@@ -21,7 +21,7 @@ public class DecoratorGenerator extends ClassGeneratorBase {
         codeBuilder.append("\t/*\n")
                 .append("\t * Reference: service:").append(name).append("\n")
                 .append("\t */\n")
-                .append("\tprotected ").append(name).append(" service;\n\n");
+                .append("\tprivate ").append(name).append(" service;\n\n");
 
         // Constructor
         codeBuilder.append("\t/*\n")
