@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="867dd5c5-75e7-461b-9a17-8f2f5fab9093" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-10-26-ReneWolter/LabExam-MKSS-2018-10-26-ReneWolter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/src/test/java/org/se/lab/UserServiceConnectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/src/test/java/org/se/lab/UserServiceConnectorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/target/classes/org/se/lab/ServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/target/classes/org/se/lab/ServiceException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/target/classes/org/se/lab/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/target/classes/org/se/lab/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/target/classes/org/se/lab/UserServiceConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/target/classes/org/se/lab/UserServiceConnector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/target/classes/org/se/lab/UserServiceConnectorJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/target/classes/org/se/lab/UserServiceConnectorJSON.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/target/test-classes/org/se/lab/AbstractTestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/target/test-classes/org/se/lab/AbstractTestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/target/test-classes/org/se/lab/JdbcTestHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/target/test-classes/org/se/lab/JdbcTestHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/target/test-classes/org/se/lab/UserServiceConnectorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/target/test-classes/org/se/lab/UserServiceConnectorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generated/java/org/se/lab/business/UserServiceDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generated/java/org/se/lab/business/UserServiceDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generated/java/org/se/lab/business/UserServiceLoggingDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generated/java/org/se/lab/business/UserServiceLoggingDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/generator/DecoratorGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/generator/DecoratorGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/generator/LoggingDecoratorGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/generator/LoggingDecoratorGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/test/java/org/se/lab/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/test/java/org/se/lab/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/test/java/org/se/lab/generator/ClassGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/test/java/org/se/lab/generator/ClassGeneratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/test/java/org/se/lab/generator/ModelGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/test/java/org/se/lab/generator/ModelGeneratorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/REST-EJB-UserService/target/" />
     <ignored path="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/target/" />
@@ -30,18 +25,19 @@
     <session id="-785051674">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="backup" value="8" />
+          <entry key="backup" value="9" />
           <entry key="bak" value="3" />
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="136" />
+          <entry key="java" value="142" />
           <entry key="png" value="6" />
           <entry key="properties" value="2" />
           <entry key="txt" value="3" />
@@ -53,8 +49,8 @@
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="6" />
-          <entry key="JAVA" value="136" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="JAVA" value="142" />
+          <entry key="PLAIN_TEXT" value="15" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="6" />
         </counts>
@@ -62,14 +58,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="7900" />
+          <entry key="java" value="7918" />
           <entry key="txt" value="4" />
           <entry key="xml" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7900" />
+          <entry key="JAVA" value="7918" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="49" />
         </counts>
@@ -77,12 +73,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/TODO.txt">
+        <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/test/java/org/se/lab/UserServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="1140">
+              <caret line="87" column="20" lean-forward="true" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -127,16 +123,16 @@
         <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/metamodel/MType.java" />
         <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/metamodel/MInterface.java" />
         <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/generator/ModelGenerator.java" />
-        <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/generator/DecoratorGenerator.java" />
         <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/generator/ClassGeneratorBase.java" />
         <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generated/java/org/se/lab/business/UserServiceLoggingDecorator.java" />
-        <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generated/java/org/se/lab/business/UserServiceDecorator.java" />
         <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/test/java/org/se/lab/JdbcTestHelper.java" />
         <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/src/test/java/org/se/lab/UserServiceConnectorTest.java" />
-        <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/generator/LoggingDecoratorGenerator.java" />
         <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/test/java/org/se/lab/generator/ModelGeneratorTest.java" />
         <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/test/java/org/se/lab/generator/ClassGeneratorTest.java" />
         <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/test/java/org/se/lab/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generated/java/org/se/lab/business/UserServiceDecorator.java" />
+        <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/generator/DecoratorGenerator.java" />
+        <option value="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/generator/LoggingDecoratorGenerator.java" />
       </list>
     </option>
   </component>
@@ -161,18 +157,94 @@
               <item name="exams" type="b2602c69:ProjectViewProjectNode" />
               <item name="exams" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="exams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exams" type="462c0819:PsiDirectoryNode" />
+              <item name="LabExam-MKSS-2018-12-07-B-ReneWolter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exams" type="462c0819:PsiDirectoryNode" />
+              <item name="LabExam-MKSS-2018-12-07-B-ReneWolter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exams" type="462c0819:PsiDirectoryNode" />
+              <item name="LabExam-MKSS-2018-12-07-B-ReneWolter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exams" type="462c0819:PsiDirectoryNode" />
+              <item name="LabExam-MKSS-2018-12-07-B-ReneWolter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exams" type="462c0819:PsiDirectoryNode" />
+              <item name="LabExam-MKSS-2018-12-07-B-ReneWolter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exams" type="462c0819:PsiDirectoryNode" />
+              <item name="LabExam-MKSS-2018-12-07-B-ReneWolter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exams" type="462c0819:PsiDirectoryNode" />
+              <item name="LabExam-MKSS-2018-12-07-B-ReneWolter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exams" type="462c0819:PsiDirectoryNode" />
+              <item name="LabExam-MKSS-2018-12-07-B-ReneWolter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exams" type="462c0819:PsiDirectoryNode" />
+              <item name="LabExam-MKSS-2018-12-07-B-ReneWolter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exams" type="462c0819:PsiDirectoryNode" />
+              <item name="LabExam-MKSS-2018-12-07-B-ReneWolter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544959769646" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../teiniker-lectures-modeldrivendevelopment" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545041478832" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -311,15 +383,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserServiceConnectorTest - 2018.12.16 at 12h 12m 25s.xml">
-      <configuration name="UserServiceConnectorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceConnectorTest - 2018.12.16 at 12h 15m 09s.xml">
-      <configuration name="UserServiceConnectorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceConnectorTest - 2018.12.16 at 12h 16m 51s.xml">
-      <configuration name="UserServiceConnectorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserServiceConnectorTest - 2018.12.16 at 12h 22m 14s.xml">
       <configuration name="UserServiceConnectorTest" configurationId="JUnit" />
     </history-entry>
@@ -341,11 +404,20 @@
     <history-entry file="UserServiceTest - 2018.12.16 at 12h 29m 31s.xml">
       <configuration name="UserServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ClassGeneratorTest - 2018.12.17 at 11h 07m 41s.xml">
+      <configuration name="ClassGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassGeneratorTest - 2018.12.17 at 11h 10m 31s.xml">
+      <configuration name="ClassGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2018.12.17 at 11h 11m 30s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="43" width="1926" height="1040" extended-state="6" />
+    <frame x="-3" y="43" width="1366" height="728" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20660277" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2754173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -354,7 +426,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969433" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19868995" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1986755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -452,10 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,27 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generated/java/org/se/lab/business/UserServiceLoggingDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generated/java/org/se/lab/business/UserServiceDecorator.backup">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generated/java/org/se/lab/business/UserServiceDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/src/test/java/org/se/lab/UserServiceConnectorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -609,37 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/generator/DecoratorGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/generator/LoggingDecoratorGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/metamodel/MPackage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/test/java/org/se/lab/generator/ClassGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,16 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/test/java/org/se/lab/UserServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="87" column="20" lean-forward="true" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -677,7 +687,62 @@
     <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/TODO.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/generator/DecoratorGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generic/java/org/se/lab/generator/LoggingDecoratorGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generated/java/org/se/lab/business/UserServiceDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generated/java/org/se/lab/business/UserServiceLoggingDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/generated/java/org/se/lab/business/UserServiceDecorator.backup">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/test/java/org/se/lab/generator/ClassGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/src/test/java/org/se/lab/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="87" column="20" lean-forward="true" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
         </state>
       </provider>
     </entry>

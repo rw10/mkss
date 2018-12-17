@@ -25,7 +25,6 @@ public class UserServiceLoggingDecorator
 	 * Business methods
 	 */
 
-
 	/*
 	 * Operation: addUser
 	 */

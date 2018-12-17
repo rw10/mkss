@@ -20,7 +20,6 @@ public abstract class UserServiceDecorator
 		this.service = service;
 	}
 
-
 	/*
 	 * Operation: addUser
 	 */

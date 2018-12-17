@@ -40,12 +40,13 @@ public class LoggingDecoratorGenerator extends ClassGeneratorBase {
                 .append("\tpublic ").append(generateInterfaceName(mInterface)).append("(").append(name).append(" service)\n")
                 .append("\t{\n")
                 .append("\t\tsuper(service);\n")
-                .append("\t}\n\n");
+                .append("\t}\n");
 
         // commentary
-        codeBuilder.append("\t/*\n")
+        codeBuilder.append("\n")
+                .append("\t/*\n")
                 .append("\t * Business methods\n")
-                .append("\t */\n\n");
+                .append("\t */\n");
 
         // visit operations
         for(MOperation mOperation : mInterface.getOperations()){

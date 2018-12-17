@@ -32,7 +32,7 @@ public class DecoratorGenerator extends ClassGeneratorBase {
                 .append("\t\tif(service == null)\n")
                 .append("\t\t\tthrow new IllegalArgumentException(\"").append(name).append(" is null!\");\n")
                 .append("\t\tthis.service = service;\n")
-                .append("\t}\n\n");
+                .append("\t}\n");
 
         // visit operations
         for(MOperation mOperation : mInterface.getOperations()){

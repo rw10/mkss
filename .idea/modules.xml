@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LabExam-MKSS-2018-10-26-ReneWolter/LabExam-MKSS-2018-10-26-ReneWolter.iml" filepath="$PROJECT_DIR$/LabExam-MKSS-2018-10-26-ReneWolter/LabExam-MKSS-2018-10-26-ReneWolter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/LabExam-MKSS-2018-12-07-A-MyName.iml" filepath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/LabExam-MKSS-2018-12-07-A-MyName.iml" />
       <module fileurl="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/LabExam-MKSS-2018-12-07-A-ReneWolter.iml" filepath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-A-ReneWolter/LabExam-MKSS-2018-12-07-A-ReneWolter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/LabExam-MKSS-2018-12-07-B-MyName.iml" filepath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/LabExam-MKSS-2018-12-07-B-MyName.iml" />
       <module fileurl="file://$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/LabExam-MKSS-2018-12-07-B-ReneWolter.iml" filepath="$PROJECT_DIR$/LabExam-MKSS-2018-12-07-B-ReneWolter/LabExam-MKSS-2018-12-07-B-ReneWolter.iml" />
       <module fileurl="file://$PROJECT_DIR$/REST-EJB-UserService/REST-EJB-UserService.iml" filepath="$PROJECT_DIR$/REST-EJB-UserService/REST-EJB-UserService.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/exams.iml" filepath="$PROJECT_DIR$/.idea/exams.iml" />

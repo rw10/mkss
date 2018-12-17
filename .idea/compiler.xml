@@ -25,5 +25,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="LabExam-MKSS-2018-10-26-ReneWolter" options="" />
+      <module name="LabExam-MKSS-2018-12-07-A-ReneWolter" options="" />
+      <module name="REST-EJB-UserService" options="" />
+    </option>
   </component>
 </project>
